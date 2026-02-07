@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(252, 250, 253);
+            position: relative;
+        }
+        .box{
+            width: 20vw;
+            height: 40vh;
+            border-radius: 20px;
+            font-size: 200px;
+            color: white;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 1s ease-in-out;
+        }
+
+        .sub1{
+            background-color:red;
+            position: absolute;
+            top: 30vh;
+            left: 4vh;
+        }
+
+        .sub2{
+            background-color:green;
+            position: absolute;
+            top: 33vh;
+            left: 28vw;
+        }
+
+        .sub3{
+            background-color:dodgerblue;
+            position: absolute;
+            top: 30vh;
+            right: 28vw;
+        }
+ 
+        .sub4{
+            background-color:yellow;
+            position: absolute;
+            top: 33vh;
+            right: 4vh;
+        }
+        .sub5 img{
+              width: 250px;
+              
+        }
+        .sub5{
+            position:fixed;
+            top: 5vh;
+            left: 5vh;
+        }
+        .main2{
+            background-color: aliceblue;
+            width: 100vw;
+            height: 100vh;
+            right: 30vh;
+        }
+         .main:hover .sub1{
+            background-color: white;
+            color: red;
+            border: 10px solid red;
+            transform: rotate(-10deg);
+            left: 8vw;
+        }
+        .main:hover .sub2{
+            background-color: rgb(239, 237, 237,0);
+            color: green;
+            border: 10px solid green;
+            transform: rotate(10deg);
+            
+        }
+        .main:hover .sub3{
+            background-color: rgb(116, 109, 109,0);
+            color: dodgerblue;
+            border: 10px solid dodgerblue;
+            transform: rotate(-10deg);
+            right:32vw;
+        }
+        .main:hover .sub4{
+            background-color: rgb(237, 230, 230,0);
+            color: yellow;
+            border: 10px solid yellow;
+            transform: rotate(10deg);
+            right:12vw
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box sub1">
+            Z
+        </div>
+        <div class="box sub2">
+            O
+        </div>
+        <div class="box sub3">
+            H
+        </div>
+        <div class="box sub4">
+            O
+        </div>
+        <div class="sub5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/ZOHO_New.png" alt="">
+        </div>
+    </div>
+    <div class="main2">
+
+    </div>
+</body>
+</html>
